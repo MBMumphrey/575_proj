@@ -9,8 +9,6 @@ pval <- function(p){
   return(p)
 }
 
-setwd("/Users/cathylicioussmith/Documents/Bioinf 575/Final Project")
-
 #read in data
 meta = read.table('metadata', header=T, sep='\t')
 shared_clean = read.table('clean.shared', header=T)
